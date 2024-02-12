@@ -3,6 +3,9 @@
     margin: 0;
   }
   
+
+
+
   main {
     /* background: gainsboro; */
   
@@ -10,6 +13,21 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr); 
     /* 1fr 1fr */
+
+    h1 {
+      font-family: 'Inknut Antiqua', serif;
+     
+      }
+
+      p {
+        font-family: 'Lateef', serif;
+        font-size: x-large;
+        background-color: rgba(89, 68, 53, 0.473);
+        border-style: double;
+        border-radius: 5px;
+      }
+
+
   }
   
   article {
@@ -36,7 +54,6 @@
   }
 
 
-  
 
 
   
