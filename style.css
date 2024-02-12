@@ -16,8 +16,25 @@
 
     h1 {
       font-family: 'Inknut Antiqua', serif;
-     
-      }
+        position: relative;
+    }
+    
+    /* img[alt="left bracket"] {
+        position: absolute;
+        left: -20px } */
+
+        /* Distance from the left side of the 
+                      page where you want the image*/
+  
+    
+    /* img[alt="right bracket"] {
+        position: absolute;
+        right: 730px } */
+        
+        /*Distance from the right side of the 
+                               page where you want the image*/
+
+    }
 
       p {
         font-family: 'Lateef', serif;
@@ -27,8 +44,6 @@
         border-radius: 5px;
       }
 
-
-  }
   
   article {
     /* background: lightblue; */
