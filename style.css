@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lateef:wght@200;300;400;500;600;700;800&display=swap');
+
 * {
     /* outline: 1px dotted gray; */
     margin: 0;
+    
+  }
+
+  body {
+    font-family: "Inknut Antiqua", serif;
   }
   
 
@@ -56,16 +64,19 @@
     align-items: center;
   }
   
-
+aside {
+  min-height: 100vh;
+  
+}
   
   aside img {
     /* fit image to container */
     display: block;
     max-width: 100%;
-    
-    /*  full height img. fit to container no stretching */
-    height: 100vh;
     object-fit: cover;
+    /*  full height img. fit to container no stretching */
+    /* height: 100vh; */
+    
   }
 
 
