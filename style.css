@@ -8,14 +8,14 @@
   }
 
   body {
-    font-family: "Inknut Antiqua", serif;
+    /* font-family: "Inknut Antiqua", serif; */
   }
   
 
 
 
   main {
-    /* background: gainsboro; */
+    background: rgb(68, 29, 29);
   
   /*  make 2 columns  */
     display: grid;
@@ -30,18 +30,11 @@
     /* img[alt="left bracket"] {
         position: absolute;
         left: -20px } */
-
-        /* Distance from the left side of the 
-                      page where you want the image*/
-  
-    
+ 
     /* img[alt="right bracket"] {
         position: absolute;
         right: 730px } */
-        
-        /*Distance from the right side of the 
-                               page where you want the image*/
-
+  
     }
 
       p {
@@ -54,7 +47,6 @@
 
   
   article {
-    /* background: lightblue; */
     padding: 2em;
     
   /*  vert. center. horiz center.  */
