@@ -2,38 +2,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Lateef:wght@200;300;400;500;600;700;800&display=swap');
 
 * {
-    /* outline: 1px dotted gray; */
     margin: 0;
     
   }
 
-  body {
-    /* font-family: "Inknut Antiqua", serif; */
-  }
   
 
 
 
   main {
-    background: rgb(68, 29, 29);
-  
-  /*  make 2 columns  */
+    background: rgb(68, 29, 29);  
     display: grid;
     grid-template-columns: repeat(2, 1fr); 
-    /* 1fr 1fr */
 
     h1 {
       font-family: 'Inknut Antiqua', serif;
         position: relative;
     }
     
-    /* img[alt="left bracket"] {
-        position: absolute;
-        left: -20px } */
- 
-    /* img[alt="right bracket"] {
-        position: absolute;
-        right: 730px } */
   
     }
 
@@ -43,13 +29,12 @@
         background-color: rgba(89, 68, 53, 0.473);
         border-style: double;
         border-radius: 5px;
+        padding: 10px;
       }
 
   
   article {
     padding: 2em;
-    
-  /*  vert. center. horiz center.  */
     display: flex;
     flex-direction: column;
     Justify-content: center;
@@ -62,12 +47,9 @@ aside {
 }
   
   aside img {
-    /* fit image to container */
     display: block;
     max-width: 100%;
     object-fit: cover;
-    /*  full height img. fit to container no stretching */
-    /* height: 100vh; */
     
   }
 
