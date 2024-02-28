@@ -4,3 +4,4 @@ My Website
 ## citations
 *[Google Fonts] (https://fonts.google.com)
 *[Favicon] (https://favicon.io)
+*[Figma] (https://www.figma.com/)
