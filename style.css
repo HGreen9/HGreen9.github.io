@@ -12,6 +12,7 @@
 
   main {
     /* background: rgb(68, 29, 29);   */
+    /* background: rgb(53, 30, 30);   */
     background: rgb(53, 30, 30);  
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -21,21 +22,24 @@
 
     h1 { 
       font-family: 'Inknut Antiqua', serif;
-      font-size: 5em;
+      font-size: 3em;
         text-align: center;
        /* color: rgb(22, 7, 7); */
-       color: rgb(0, 0, 0);
+       color: rgb(152 126 126);
     }
 
 
       p {
         font-family: 'Lateef', serif;
         font-size: 2em;
+        color: rgb(152 126 126);
         /* background-color: rgba(89, 68, 53, 0.473); */
-        background-color: rgba(131, 107, 89, 0.795);
-        border: 20px double;
-        border-radius: 5px;
+        /* background-color: rgba(131, 107, 89, 0.2); */
+        /* border: 6px dashed black;
+        border-radius: 5px; */
         padding: 10px;
+margin-bottom: 10px;
+      
       }
 
   
@@ -61,14 +65,15 @@
 a:visited {
   
   /* background: rgb(89, 68, 53, 0.473); */
-  background-color: rgba(131, 107, 89, 0.795);
+  background-color: rgba(131, 107, 89, 0.2);
   /* border-style: double;
   border-radius: 5px;
   padding: 10px; */
-  border: 10px double;
-        border-radius: 5px;
+  border: outset;
+        border-radius: 4px;
         padding: 10px;
-  color: rgb(0, 0, 0);
+        color: rgb(152 126 126);
+  /* color: rgb(0, 0, 0); */
   
   min-width: 5rem;
   margin: .5em;
@@ -80,9 +85,9 @@ a:hover,
 a:active {
   /* background: rgb(56, 23, 23); */
   background: rgb(134, 99, 88);
-  border-style: double;
+  border-style: 4px dashed;
   border-radius: 5px;
-  color: rgb(176, 147, 124);
+  color: rgb(56, 32, 32);
 
   transform: scale(1.25);
     
