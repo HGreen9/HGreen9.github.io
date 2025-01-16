@@ -7,6 +7,6 @@
 * Link to projects
 
 ## citations
+* [Normalize CSS](https://necolas.github.io/normalize.css/)
 * [Google Fonts](https://fonts.google.com)
-* [Favicon](https://favicon.io)
 * [Figma](https://www.figma.com/)

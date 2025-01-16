@@ -1,1 +1,2 @@
-// this is java script
+// website loaded?
+console.log("👍 Okay");
