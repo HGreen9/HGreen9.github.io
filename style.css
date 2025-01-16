@@ -1,104 +1,79 @@
 @import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lateef:wght@200;300;400;500;600;700;800&display=swap');
 
-* {
-    margin: 0;
-    
-  }
+/* General Styles */
+main {
+  background: rgb(53, 30, 30);  
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
 
-  
+/* Heading Styles */
+h1 { 
+  font-family: 'Inknut Antiqua', serif;
+  font-size: 3em;
+  text-align: center;
+  color: rgb(152 126 126);
+  margin-bottom: 0; /* Reduce bottom margin */
+}
 
+/* Paragraph Styles */
+p {
+  font-family: 'Lateef', serif;
+  font-size: 2em;
+  color: rgb(152 126 126);
+  padding: 10px;
+  margin-top: 0; /* Reduce top margin */
+  margin-bottom: 10px;
+  text-align: center; /* Center text horizontally */
+  margin: 0 auto; /* Center the paragraph element horizontally */
+}
 
+/* Article Styles */
+article {
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-  main {
-    /* background: rgb(68, 29, 29);   */
-    /* background: rgb(53, 30, 30);   */
-    background: rgb(53, 30, 30);  
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    
-  
-    }
+/* Link Styles */
+a {
+  display: inline-block;
+}
 
-    h1 { 
-      font-family: 'Inknut Antiqua', serif;
-      font-size: 3em;
-        text-align: center;
-       /* color: rgb(22, 7, 7); */
-       color: rgb(152 126 126);
-    }
+/* Navigation Styles */
+nav {
+  display: flex;
+  gap: 1rem;
+}
 
-
-      p {
-        font-family: 'Lateef', serif;
-        font-size: 2em;
-        color: rgb(152 126 126);
-        /* background-color: rgba(89, 68, 53, 0.473); */
-        /* background-color: rgba(131, 107, 89, 0.2); */
-        /* border: 6px dashed black;
-        border-radius: 5px; */
-        padding: 10px;
-margin-bottom: 10px;
-      
-      }
-
-  
-  article {
-    padding: 2em;
-    display: flex;
-    flex-direction: column;
-    Justify-content: center;
-    align-items: center;
-
-  }
-
-  a {
-    display: inline-block;
-  }
-  
-  nav {
-    display: flex;
-    gap: 1rem;
-  }
-
-  a:link, 
+a:link, 
 a:visited {
-  
-  /* background: rgb(89, 68, 53, 0.473); */
   background-color: rgba(131, 107, 89, 0.2);
-  /* border-style: double;
-  border-radius: 5px;
-  padding: 10px; */
   border: outset;
-        border-radius: 4px;
-        padding: 10px;
-        color: rgb(152 126 126);
-  /* color: rgb(0, 0, 0); */
-  
+  border-radius: 4px;
+  padding: 10px;
+  color: rgb(152 126 126);
   min-width: 5rem;
-  margin: .5em;
-  
+  margin: 0.5em;
   text-align: center;
 }
 
 a:hover, 
 a:active {
-  /* background: rgb(56, 23, 23); */
   background: rgb(134, 99, 88);
   border-style: 4px dashed;
   border-radius: 5px;
   color: rgb(56, 32, 32);
-
   transform: scale(1.25);
-    
-  transition: 
-    background .5s,
-    transform .5s;
+  transition: background 0.5s, transform 0.5s;
 }
 
+/* Aside Styles */
 aside {
   min-height: 100vh;
-  
 }
 
 main aside { 
@@ -107,34 +82,24 @@ main aside {
   justify-content: center;
   align-items: center;
 }
-  
-  aside img {
-    display: block;
-    max-width: 100%;
-    object-fit: cover;
-    
+
+aside img {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 700px) {
+  main { 
+      grid-template-columns: repeat(1, 1fr);
   }
-
-  @media screen and ( max-width: 700px ) {
   
-    main { 
-       grid-template-columns: repeat(1, 1fr);
-    }
-    
-    main img {
+  main img {
       display: block;
-/*       
-      max-height:50%;
-      width: 100%; */
-    }
+  }
   
-   
-    aside nav {
+  aside nav {
       flex-direction: column;
-    }
-  
-    
-  } 
-
-
-  
+  }
+}
