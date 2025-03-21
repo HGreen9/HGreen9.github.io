@@ -1,6 +1,6 @@
 # HGreen9.github.io
 "Design is the quiet whisper of an idea, a seed planted in the soil of curiosity. With patience and imagination, it blossoms into something extraordinary — proof that beauty often begins in the smallest of sparks" 
-- Hannah Green 2024
+-Hannah Green 2024
 
 >[My Website](https://hgreen9.netlify.app/)
 
