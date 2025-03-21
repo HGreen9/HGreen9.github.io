@@ -1,8 +1,28 @@
 /* General Styles */
-main {
-  background: rgb(53, 30, 30);  
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+body {
+  /* background: #88a881;   */
+  /* background: #e7d9cc;   */
+  background-image: url(/assets/old\ paper\ flowers.jpg);
+  background-repeat: repeat; /* Options: repeat, repeat-x, repeat-y, no-repeat */
+  background-size: cover; /* Options: auto, cover, contain, or specific dimensions like 100px 100px */
+  background-position: center; /* Ensures the image is centered */
+  
+  /* Center the article */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Ensure the body takes up the full viewport height */
+  margin: 0; /* Remove default body margin */
+}
+
+article {
+  background: rgb(231, 217, 204, 0.8); /* Add a background color with opacity */
+  padding: 2em; /* Add padding for spacing inside the article */
+  align-content: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow for better visibility */
+  border-radius: 40px; /* Optional: Add rounded corners */
+  margin-left: 150px;
+  margin-right: 150px;
 }
 
 /* Heading Styles */
@@ -10,15 +30,18 @@ h1 {
   font-family: 'Dancing Script', cursive;
   font-size: 6em;
   text-align: center;
-  color: rgb(152 126 126);
-  margin-bottom: 0; /* Reduce bottom margin */
+  color: #154318;
+  margin-top: 10px;
+  margin-bottom: 0px;
 }
 
 /* Paragraph Styles */
 p {
   font-family: 'Satoshi', sans-serif;
   font-size: 2em;
-  color: rgb(152 126 126);
+  font-weight: 400;
+  color: #154318;
+  text-align: center;
   /* padding: 10px; */
   /* margin-top: 0; Reduce top margin */
   /* margin-bottom: 10px; */
