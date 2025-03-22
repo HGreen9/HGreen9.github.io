@@ -4,7 +4,7 @@
 window.onload = () => {
   // Select the body or any specific element you want to animate
   gsap.fromTo(
-    "body", // Target element(s)
+    "article", // Target element(s)
     { opacity: 0 }, // Starting state
     { opacity: 1, duration: 3, ease: "power2.out" } // Ending state
   );

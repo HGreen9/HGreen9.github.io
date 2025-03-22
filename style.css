@@ -78,6 +78,19 @@ section.portfolio h2 {
   margin-top: 0.5em;
 }
 
+button {
+  font-family: 'Satoshi', sans-serif;
+  background: #beaa94;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+button:hover {
+  background: #b6897c;
+}
+
 /* Add a container for the profile picture */
 .profile-picture {
   display: flex;
